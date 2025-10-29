@@ -1,0 +1,34 @@
+poly new p1 
+3 2 1 5 8 -3.1 11
+poly new p2
+3 7 0 -5 8 11 9
+poly new p3
+4 6 -3 -1 1 4.4 2 -1.2 9
+poly new p4
+4 -6 -3 5.4 2 -1 2 7.8 15
+poly new p5
+7 1 0 1 1 1 2 1 3 1 4 1 5 1 6
+poly new p6
+2 -1 3 -1 4
+poly new p7
+2 1 1 1 3
+poly new p8
+2 -1 1 -1 3
+poly new p9
+2 1 1 1 100
+poly new p10
+2 1 100 1 200
+poly new p11
+3 1 1 1 2 1 3
+poly new p12
+1 0 0
+poly add p1 p2 -l
+poly sub p3 p4 -l
+poly add p5 p6 -l
+poly add p7 p8 -l
+poly add p9 p10 -l
+poly add p11 p12 -l
+poly deriv p7 -l
+poly mul p7 p8 -l
+exit
+
